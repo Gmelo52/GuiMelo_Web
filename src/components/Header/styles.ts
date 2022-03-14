@@ -6,13 +6,23 @@ export const Container = styled.div`
   height: 80px;
   display: flex;
   flex-direction: row;
+
+  @media(max-width: 1400px) {
+    padding: 0 200px;
+  }
+
 `;
 
-export const LogoView =styled.div`
+export const LogoView = styled.div`
   width: 50%;
   height: 100%;
   display: flex;
   align-items: flex-end;
+
+  @media(max-width: 900px) {
+    width: 100%;
+    justify-content: center;
+  }
 `;
 
 export const LogoImg = styled.img`
@@ -26,6 +36,10 @@ export const BtnsView = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+
+  @media(max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const BtnProj = styled.button`

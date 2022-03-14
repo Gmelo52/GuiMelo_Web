@@ -6,6 +6,11 @@ export const Container = styled.div`
   height: 80%;
   display: flex;
   flex-direction: row;
+  
+  @media(max-width: 1400px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 `;
 
 export const TextView = styled.div`
@@ -15,11 +20,22 @@ export const TextView = styled.div`
   flex-direction: column;
   align-items: baseline;
   justify-content: center;
+
+  @media(max-width: 1400px) {
+    align-items: center;
+  }
 `;
 
 export const Title = styled.h1`
   font-size: 60px;
   color: ${theme.colors.primary};
+
+  @media(max-width: 1400px) {
+    font-size: 40px;
+  }
+  @media(max-width: 900px) {
+    font-size: 30px;
+  }
 `;
 
 export const SubTitle = styled.h2`
@@ -27,6 +43,13 @@ export const SubTitle = styled.h2`
   font-size: 35px;
   font-weight: 500;
   color: ${theme.colors.scondary};
+
+  @media(max-width: 1400px) {
+    font-size: 18px;
+  }
+  @media(max-width: 900px) {
+    font-size: 14px;
+  }
 `;
 
 export const IconsView = styled.div`
@@ -43,6 +66,13 @@ export const Comment = styled.h5`
   display: flex;
   text-align: justify;
   padding-right: 10px;
+
+  @media(max-width: 1400px) {
+    font-size: 14px;
+  }
+  @media(max-width: 900px) {
+    font-size: 12px;
+  }
 `;
 
 export const MediaView = styled.div`
@@ -77,8 +107,29 @@ export const ImgView = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items:flex-end;
+
+  @media(max-width: 1400px) {
+    align-items: center;
+  }
+
 `;
 
 export const MeImg = styled.img`
   width: 90%;
+  height: auto;
+
+  @media(max-width: 1400px) {
+    width: 65%;
+    height: auto;
+  }
+
+  @media(max-width: 900px) {
+    width: 85%;
+  }
+  @media(max-width: 800px) {
+    width: 95%;
+  }
+  @media(max-width: 650px) {
+    width: 100%;
+  }
 `;

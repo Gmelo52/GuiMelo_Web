@@ -8,6 +8,10 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-color: ${theme.colors.backgroundColor};
-  padding: 0 300px
+  padding: 0 300px;
+
+  @media(max-width: 1400px) {
+    padding: 0;
+  }
 `;
 
