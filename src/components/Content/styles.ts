@@ -60,11 +60,14 @@ export const MediaIcon = styled.img`
 `;
 
 export const ImgView = styled.div`
-  background-color: ${theme.colors.scondary};
   height: 100%;
   width: 35%;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
   justify-content: center;
+  align-items:flex-end;
+`;
+
+export const MeImg = styled.img`
+  width: 90%;
 `;

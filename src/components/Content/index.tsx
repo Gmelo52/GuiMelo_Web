@@ -5,6 +5,7 @@ import {
   ImgView,
   MediaIcon,
   MediaView,
+  MeImg,
   SubTitle,
   TextView,
   Title,
@@ -16,6 +17,7 @@ import tsIcon from "../../assets/ts.png";
 import reactIcon from "../../assets/react.png";
 import gitIcon from "../../assets/github.png";
 import linkedinIcon from "../../assets/linkedin.png";
+import meImg from '../../assets/me.png';
 import IconTech from "../IconTech";
 
 export default function Content() {
@@ -47,7 +49,9 @@ export default function Content() {
           <MediaIcon src={linkedinIcon} />
         </MediaView>
       </TextView>
-      <ImgView>{/* add IMG */}</ImgView>
+      <ImgView>
+      <MeImg src={meImg} />
+      </ImgView>
     </Container>
   );
 }
