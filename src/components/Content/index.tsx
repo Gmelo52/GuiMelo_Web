@@ -21,12 +21,35 @@ import linkedinIcon from "../../assets/linkedin.png";
 import meImg from "../../assets/me.png";
 import IconTech from "../IconTech";
 
+import Typewriter from "typewriter-effect";
+
 export default function Content() {
   return (
     <Container>
       <TextView>
         <Title>Guilherme Melo</Title>
-        <SubTitle>Sou desenvolvedor Front-End.</SubTitle>
+        <SubTitle>
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("Sou desenvolvedor ReactJs")
+                .pauseFor(1000)
+                .deleteAll();
+              typewriter
+                .typeString("Sou desenvolvedor ReactNative")
+                .pauseFor(1000)
+                .deleteAll();
+              typewriter
+                .typeString("Sou UI/UX Designer")
+                .pauseFor(1000)
+                .deleteAll();
+              typewriter
+                .typeString("Sou desenvolvedor Front-End")
+                .pauseFor(1000)
+                .start();
+            }}
+          />
+        </SubTitle>
         <IconsView>
           <IconTech src={htmlIcon} />
           <IconTech src={cssIcon} />
@@ -48,10 +71,7 @@ export default function Content() {
         <MediaView>
           <MediaBtn
             onClick={() => {
-              javascript: window.open(
-                "https://github.com/Gmelo52/",
-                "_blank"
-              );
+              javascript: window.open("https://github.com/Gmelo52", "_blank");
             }}
           >
             <MediaIcon src={gitIcon} />

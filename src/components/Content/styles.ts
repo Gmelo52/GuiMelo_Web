@@ -23,7 +23,8 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.h2`
-  font-size: 40px;
+  display: inline-block;
+  font-size: 35px;
   font-weight: 500;
   color: ${theme.colors.scondary};
 `;
