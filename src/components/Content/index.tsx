@@ -3,6 +3,7 @@ import {
   Container,
   IconsView,
   ImgView,
+  MediaBtn,
   MediaIcon,
   MediaView,
   MeImg,
@@ -45,8 +46,12 @@ export default function Content() {
           accident, sometimes on purpose (injected humour and the like).
         </Comment>
         <MediaView>
-          <MediaIcon src={gitIcon} />
-          <MediaIcon src={linkedinIcon} />
+          <MediaBtn>
+            <MediaIcon src={gitIcon} />
+          </MediaBtn>
+          <MediaBtn>
+            <MediaIcon src={linkedinIcon} />
+          </MediaBtn>
         </MediaView>
       </TextView>
       <ImgView>

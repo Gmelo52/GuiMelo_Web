@@ -1,6 +1,6 @@
 import React from 'react'
 import logoImg from '../../assets/logo.png'
-import { BtnCV, BtnProj, BtnsView, BtnText, Container, LogoImg, LogoView } from './styles'
+import { BtnCV, BtnProj, BtnsView, BtnText, BtnTextCV, Container, LogoImg, LogoView } from './styles'
 
 export default function Header() {
   return (
@@ -13,7 +13,7 @@ export default function Header() {
           <BtnText>Projetos</BtnText>
         </BtnProj>
         <BtnCV>
-          <BtnText>Download CV</BtnText>
+          <BtnTextCV>Download CV</BtnTextCV>
         </BtnCV>
       </BtnsView>
     </Container>

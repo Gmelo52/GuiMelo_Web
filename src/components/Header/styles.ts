@@ -34,20 +34,47 @@ export const BtnProj = styled.button`
   border: none;
   padding: 10px 20px;
   margin-right: 20px;
+  cursor: pointer;
+  transition-duration: .4s;
+  :hover{ 
+    transform: scale(1.05);
+  }
 `;
 
 export const BtnCV = styled.button`
   background-color: transparent;
-  color: ${theme.colors.primary};
+  color: ${theme.colors.scondary};
   border: 2px solid ${theme.colors.primary};
   border-radius:5px;
-  padding: 10px 20px;
+  transition-duration: .4s;
+  cursor: pointer;
+  :hover{
+    background-color: ${theme.colors.primary};
+    transform: scale(1.05);
+
+  }
 `;
 
 export const BtnText = styled.h5`
   color: ${theme.colors.primary};
   font-size:12px;
   font-weight: 500;
+  width: 100%;
+  height: 100%;
 `;
+
+export const BtnTextCV = styled.h5`
+  color: ${theme.colors.primary};
+  font-size:12px;
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  :hover{
+    color:${theme.colors.backgroundColor}
+  }
+`;
+
+
 
 

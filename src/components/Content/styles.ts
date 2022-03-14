@@ -53,10 +53,20 @@ export const MediaView = styled.div`
   align-items: center;
 `;
 
+export const MediaBtn = styled.button`
+  background-color: transparent;
+  border: none;
+  margin: 0 20px;
+  transition-duration: .4s;
+  cursor: pointer;
+  :hover{
+    transform: scale(1.05);
+  }
+`;
+
 export const MediaIcon = styled.img`
   width: 36px;
   height: 36px;
-  margin: 10px 25px;
 `;
 
 export const ImgView = styled.div`
