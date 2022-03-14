@@ -18,7 +18,7 @@ import tsIcon from "../../assets/ts.png";
 import reactIcon from "../../assets/react.png";
 import gitIcon from "../../assets/github.png";
 import linkedinIcon from "../../assets/linkedin.png";
-import meImg from '../../assets/me.png';
+import meImg from "../../assets/me.png";
 import IconTech from "../IconTech";
 
 export default function Content() {
@@ -46,16 +46,30 @@ export default function Content() {
           accident, sometimes on purpose (injected humour and the like).
         </Comment>
         <MediaView>
-          <MediaBtn>
+          <MediaBtn
+            onClick={() => {
+              javascript: window.open(
+                "https://github.com/Gmelo52/",
+                "_blank"
+              );
+            }}
+          >
             <MediaIcon src={gitIcon} />
           </MediaBtn>
-          <MediaBtn>
+          <MediaBtn
+            onClick={() => {
+              javascript: window.open(
+                "https://www.linkedin.com/in/gmelo52/",
+                "_blank"
+              );
+            }}
+          >
             <MediaIcon src={linkedinIcon} />
           </MediaBtn>
         </MediaView>
       </TextView>
       <ImgView>
-      <MeImg src={meImg} />
+        <MeImg src={meImg} />
       </ImgView>
     </Container>
   );
