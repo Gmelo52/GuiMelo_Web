@@ -60,15 +60,28 @@ export default function Content() {
           <IconTech src={reactIcon} />
         </IconsView>
         <Comment>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+        Formado em análise de sistemas, atualmente trabalho como programador 
+        front-end mobile/web com experiencia em IOT. Apaixonado por tecnología, 
+        decidi ingressar na área e logo comecei a me especializar em front-end, 
+        hoje desenvolvo em ReactJs/ReactNative com Javascript/Typescript.<br></br>
+        <br></br>
+
+        Comecei meu trabalho com suporte a hardware e logo depois comecei a 
+        trabalhar como pesquisador focado em desenvolver soluções em algumas 
+        pesquisas relacionadas a área acadêmica.<br></br>
+        <br></br>
+
+
+        Fora do horário de trabalho, busco me atualizar e melhorar meu 
+        conhecimento na área em que trabalho, sempre procurando novas 
+        tecnologias e estudando como elas funcionam. 
+
+        Comecei estudar programação na faculdade, porém me aprofundei 
+        quando já estava trabalhando, hoje eu desenvolvo soluções 
+        simples e objetivas em sites e apps. Estudo todos os dias para 
+        buscar aprimorar as boas práticas, estratégias, e soluções 
+        que estejam em alta na área.
+
         </Comment>
         <MediaView>
           <MediaBtn
