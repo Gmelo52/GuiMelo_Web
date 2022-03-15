@@ -2,13 +2,16 @@ import styled from 'styled-components'
 import { theme } from '../../styles/theme';
 
 export const Container = styled.div`
+background-color: red;
   width: 100%;
   height: 80px;
   display: flex;
   flex-direction: row;
 
   @media(max-width: 1400px) {
-    padding: 0 200px;
+    width: 100%;
+    height: 80px;
+    justify-content:center;
   }
 
 `;
@@ -18,10 +21,15 @@ export const LogoView = styled.div`
   height: 100%;
   display: flex;
   align-items: flex-end;
+  background-color:blue;
 
   @media(max-width: 900px) {
     width: 100%;
     justify-content: center;
+  }
+  @media(max-width: 500px) {
+    width: 50%;
+    align-items: center;
   }
 `;
 
