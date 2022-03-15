@@ -14,7 +14,6 @@ export const Container = styled.div`
 `;
 
 export const TextView = styled.div`
-  background-color:red;
   height: 100%;
   width: 65%;
   display: flex;
@@ -105,7 +104,6 @@ export const MediaIcon = styled.img`
 `;
 
 export const ImgView = styled.div`
-background-color: blue;
   height: 100%;
   width: 35%;
   display: flex;

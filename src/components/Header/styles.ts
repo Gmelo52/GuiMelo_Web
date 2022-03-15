@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import { theme } from '../../styles/theme';
 
 export const Container = styled.div`
-background-color: red;
   width: 100%;
   height: 80px;
   display: flex;
@@ -21,7 +20,6 @@ export const LogoView = styled.div`
   height: 100%;
   display: flex;
   align-items: flex-end;
-  background-color:blue;
 
   @media(max-width: 900px) {
     width: 100%;
