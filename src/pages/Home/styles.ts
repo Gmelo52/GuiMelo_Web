@@ -10,7 +10,7 @@ export const Container = styled.div`
   background-color: ${theme.colors.backgroundColor};
   padding: 0 300px;
 
-  @media(max-width: 1400px) {
+  @media(max-width: 1200px) {
     padding: 0;
   }
 `;

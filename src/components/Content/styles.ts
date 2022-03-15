@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   
-  @media(max-width: 1400px) {
+  @media(max-width: 1200px) {
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -21,7 +21,7 @@ export const TextView = styled.div`
   align-items: baseline;
   justify-content: center;
 
-  @media(max-width: 1400px) {
+  @media(max-width: 1200px) {
     align-items: center;
   }
   @media(max-width: 900px) {
@@ -30,10 +30,10 @@ export const TextView = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
   color: ${theme.colors.primary};
 
-  @media(max-width: 1400px) {
+  @media(max-width: 1200px) {
     font-size: 40px;
   }
   @media(max-width: 900px) {
@@ -43,11 +43,11 @@ export const Title = styled.h1`
 
 export const SubTitle = styled.h2`
   display: inline-block;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 500;
   color: ${theme.colors.scondary};
 
-  @media(max-width: 1400px) {
+  @media(max-width: 1200px) {
     font-size: 18px;
   }
   @media(max-width: 900px) {
@@ -63,14 +63,14 @@ export const IconsView = styled.div`
 
 export const Comment = styled.h5`
   max-width: 677px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: ${theme.colors.scondary};
   display: flex;
   text-align: justify;
   padding-right: 10px;
 
-  @media(max-width: 1400px) {
+  @media(max-width: 1200px) {
     font-size: 14px;
   }
   @media(max-width: 900px) {
@@ -111,7 +111,7 @@ export const ImgView = styled.div`
   justify-content: center;
   align-items:flex-end;
 
-  @media(max-width: 1400px) {
+  @media(max-width: 1200px) {
     align-items: center;
   }
 
@@ -121,16 +121,16 @@ export const MeImg = styled.img`
   width: 90%;
   height: auto;
 
-  @media(max-width: 1400px) {
-    width: 65%;
+  @media(max-width: 1200px) {
+    width: 55%;
     height: auto;
   }
 
   @media(max-width: 900px) {
-    width: 85%;
+    width: 75%;
   }
   @media(max-width: 800px) {
-    width: 95%;
+    width: 85%;
   }
   @media(max-width: 650px) {
     width: 100%;

@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
 
-  @media(max-width: 1400px) {
+  @media(max-width: 1200px) {
     width: 100%;
     height: 80px;
     padding: 0 200px;
