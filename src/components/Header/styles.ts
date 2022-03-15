@@ -27,7 +27,8 @@ export const LogoView = styled.div`
   }
   @media(max-width: 500px) {
     width: 50%;
-    align-items: center;
+    align-items: baseline;
+    padding-top: 5px;
   }
 `;
 
