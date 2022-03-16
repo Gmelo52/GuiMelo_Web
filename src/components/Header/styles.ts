@@ -8,17 +8,15 @@ export const Container = styled.div`
   flex-direction: row;
 
   @media(max-width: 1200px) {
-    width: 100%;
-    height: 80px;
     padding: 0 200px;
     justify-content:center;
   }
 
   @media(max-width: 650px) {
-    width: 100%;
-    height: 80px;
     padding: 0 20px;
-    justify-content:center;
+  }
+  @media(max-height: 400px){
+    display: none;
   }
 
 `;
@@ -33,8 +31,7 @@ export const LogoView = styled.div`
     width: 100%;
     justify-content: center;
   }
-  @media(max-width: 650px) {
-
+  @media(max-width: 650px), (max-height: 500px){
     display: none;
   }
 `;

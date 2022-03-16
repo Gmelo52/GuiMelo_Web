@@ -11,6 +11,10 @@ export const Container = styled.div`
     flex-direction: column-reverse;
     align-items: center;
   }
+
+  @media(max-height: 500px) {
+    flex-direction: row;
+  }
 `;
 
 export const TextView = styled.div`
@@ -41,6 +45,9 @@ export const Title = styled.h1`
   }
   @media(max-width: 900px) {
     font-size: 30px;
+  }
+  @media(max-height: 400px){
+    font-size: 20px;
   }
 `;
 
@@ -81,6 +88,10 @@ export const Comment = styled.h5`
   }
   @media(max-width: 900px) {
     font-size: 11px;
+  }
+  @media(max-height: 400px){
+    font-size: 8px;
+    padding: 0 10px;
   }
 `;
 
