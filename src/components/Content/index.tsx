@@ -32,8 +32,8 @@ export default function Content() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .changeDelay(50)
-                .changeDeleteSpeed(50)
+                .changeDelay(40)
+                .changeDeleteSpeed(20)
                 .typeString("Sou desenvolvedor ReactJs")
                 .pauseFor(2000)
                 .deleteChars(7)
