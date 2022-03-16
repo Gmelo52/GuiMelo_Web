@@ -14,6 +14,7 @@ export const Container = styled.div`
 `;
 
 export const TextView = styled.div`
+background-color:red;
   height: 100%;
   width: 65%;
   display: flex;
@@ -26,6 +27,9 @@ export const TextView = styled.div`
   }
   @media(max-width: 900px) {
     width: 75%;
+  }
+  @media(max-width: 650px) {
+    width: 95%;
   }
 `;
 
@@ -76,6 +80,9 @@ export const Comment = styled.h5`
   @media(max-width: 900px) {
     font-size: 12px;
   }
+  @media(max-width: 900px) {
+    font-size: 11px;
+  }
 `;
 
 export const MediaView = styled.div`
@@ -104,6 +111,7 @@ export const MediaIcon = styled.img`
 `;
 
 export const ImgView = styled.div`
+background-color:blue;
   height: 100%;
   width: 35%;
   display: flex;
