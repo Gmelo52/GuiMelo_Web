@@ -14,6 +14,13 @@ export const Container = styled.div`
     justify-content:center;
   }
 
+  @media(max-width: 650px) {
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    justify-content:center;
+  }
+
 `;
 
 export const LogoView = styled.div`
@@ -26,10 +33,9 @@ export const LogoView = styled.div`
     width: 100%;
     justify-content: center;
   }
-  @media(max-width: 500px) {
-    width: 50%;
-    align-items: baseline;
-    padding-top: 5px;
+  @media(max-width: 650px) {
+
+    display: none;
   }
 `;
 
